@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B9455B052DCA0A5E00B135CE /* UIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9455AF92DCA0A5E00B135CE /* UIComponents.framework */; };
-		B9455B142DCA0AAD00B135CE /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9455B132DCA0AA500B135CE /* Button.swift */; };
+		B9455B142DCA0AAD00B135CE /* CustomRLGPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9455B132DCA0AA500B135CE /* CustomRLGPrimaryButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +24,7 @@
 /* Begin PBXFileReference section */
 		B9455AF92DCA0A5E00B135CE /* UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9455B042DCA0A5E00B135CE /* UIComponentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIComponentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9455B132DCA0AA500B135CE /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		B9455B132DCA0AA500B135CE /* CustomRLGPrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRLGPrimaryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -62,7 +62,7 @@
 		B9455AEF2DCA0A5D00B135CE = {
 			isa = PBXGroup;
 			children = (
-				B9455B132DCA0AA500B135CE /* Button.swift */,
+				B9455B132DCA0AA500B135CE /* CustomRLGPrimaryButton.swift */,
 				B9455AFB2DCA0A5E00B135CE /* UIComponents */,
 				B9455B082DCA0A5E00B135CE /* UIComponentsTests */,
 				B9455AFA2DCA0A5E00B135CE /* Products */,
@@ -197,7 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9455B142DCA0AAD00B135CE /* Button.swift in Sources */,
+				B9455B142DCA0AAD00B135CE /* CustomRLGPrimaryButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
